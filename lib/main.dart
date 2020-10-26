@@ -32,7 +32,7 @@ class _MyAppState extends State<MyApp> {
             children: <Widget>[
               Text(
                 number.toString(),
-                style: TextStyle(fontSize: 12 + number.toDouble()),
+                style: TextStyle(fontSize: 12 + number.toDouble()),//fungsi dari ini adalah bila diklik/setiap klik angka pada number akan menjadi besar
               ),
               RaisedButton(
                 child: Text("tambah bilangan"),
